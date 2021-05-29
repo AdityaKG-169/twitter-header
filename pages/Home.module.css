@@ -1,0 +1,76 @@
+#parent {
+	width: 1500px;
+	height: 500px;
+	background-image: url("../public/bg.png");
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.followers_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+.heading {
+	color: white;
+	text-transform: uppercase;
+	font-size: 48px;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: underline #f6c819;
+	/* width: 800px; */
+}
+
+.profile_containers {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start; */
+}
+
+.profile_container_yellow {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile_container_white {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile_name {
+	color: white;
+	text-transform: uppercase;
+	font-size: 28px;
+	font-family: "Montserrat", sans-serif;
+}
+
+/* .profile_border_yellow {
+	margin-right: 10px;
+	border: 5px solid #f6c819;
+	border-radius: 50%;
+}
+
+.profile_border_white {
+	margin-right: 10px;
+	border: 5px solid white;
+	border-radius: 50%;
+} */
+
+.profile_image {
+	border-radius: 50%;
+}
+
+#button {
+	margin-top: 20px;
+}
